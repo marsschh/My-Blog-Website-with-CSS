@@ -336,7 +336,11 @@ body{
 
 .contact-form input,
 .contact-form textarea{
-    color: #0f172a !important;
+    color: #0f172a;
+    background: #ffffff;
+    border: 2px solid #334155;
+    font-size: 0.95rem;
+    text-align: left;
 }
 
 form input{
@@ -350,6 +354,17 @@ form input{
     background: #fff;
     color: #1f2937;
     text-align: center;
+    outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+    color: #64748b;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border-color: #f97316;
     outline: none;
 }
 
