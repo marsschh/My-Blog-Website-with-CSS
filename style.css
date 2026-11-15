@@ -204,7 +204,6 @@ section p {
 
 .contact-form input,
 .contact-form textarea{
-	 color: #0f172a !important;
     display: block;
     width: 100%;
     max-width: none;                     /* cancels the 400px limit from the footer form */
@@ -335,6 +334,10 @@ body{
     color: #efefef;
 }
 
+.contact-form input,
+.contact-form textarea{
+    color: #0f172a !important;
+}
 
 form input{
     display: block;
@@ -351,7 +354,7 @@ form input{
 }
 
 form input:focus{
-    border-color: #1e3a8a;
+    border-color: #ffffff;
 }
 
 form button{
